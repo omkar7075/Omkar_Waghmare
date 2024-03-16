@@ -10,7 +10,7 @@ const downloadCV = () => {
   const cvUrl = window.location.href + "../assets/cv/resume.pdf"; // Replace with your CV file path
   const link = document.createElement("a");
   link.href = cvUrl;
-  link.download = "cv.pdf"; // Set the downloaded file name
+  link.download = "resume.pdf"; // Set the downloaded file name
   link.click();
  }
  
@@ -45,7 +45,7 @@ const downloadCV = () => {
          <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
  
          <div className="text-gray-50">
-          <span className="font-bold text-5xl">Jr</span>
+        
           <p className="text-xs">Web Developer</p>
          </div>
  
