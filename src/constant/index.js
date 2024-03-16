@@ -230,6 +230,7 @@ import {
       ],
       image: BA,
       source_code_link: "https://github.com/omkar7075/Business-Analyzer",
+      live: "https://github.com/omkar7075/Business-Analyzer",
     },
     {
       name: "Malware Detector",
@@ -251,6 +252,7 @@ import {
       ],
       image: MD,
       source_code_link: "https://github.com/omkar7075/MalwareDetector",
+      live: "https://omkar7075.github.io/MalwareDetector/",
     },
     {
       name: "Music Player",
@@ -272,6 +274,7 @@ import {
       ],
       image: MP,
       source_code_link: "https://github.com/omkar7075/musicwebsite",
+      live: "https://omkar7075.github.io/musicwebsite/",
     },
     {
       name: "Landing Page",
@@ -293,6 +296,7 @@ import {
       ],
       image: LP,
       source_code_link: "https://github.com/omkar7075/Akatsuki",
+      live: "https://akatsuki-sooty.vercel.app/",
     },
     {
       name: "Calculator",
@@ -314,6 +318,7 @@ import {
       ],
       image: CC,
       source_code_link: "https://github.com/omkar7075/Calculator",
+      live: "https://calculator-lilac-tau.vercel.app/",
     },
    
     {
@@ -336,6 +341,7 @@ import {
       ],
       image: QG,
       source_code_link: "https://github.com/omkar7075/Quote-Generater",
+      live: "https://omkar7075.github.io/Quote-Generater/",
     },
   ];
 
@@ -344,34 +350,34 @@ import {
     {
       name: "AWS DevOps Engineer",
       pdf:"https://drive.google.com/file/d/1ENAwSm1hgG6TMUwCc50BFIM56GxL1-ki/preview",
-      url: "https://explore.skillbuilder.aws/learn/lp/85/devops-engineer-learning-plan",
+      url: "https://drive.google.com/file/d/1ENAwSm1hgG6TMUwCc50BFIM56GxL1-ki/view?usp=sharing",
     },
     {
       name: "Google UX Designer",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       pdf:"https://drive.google.com/file/d/1w3NXIlu4G1uN8nuHmBoEy0t54uL_5-AK/preview",
-      url: "https://coursera.org/share/5b57a2951b638ec397eea764a8d03a13",
+      url: "https://drive.google.com/file/d/1w3NXIlu4G1uN8nuHmBoEy0t54uL_5-AK/view?usp=sharing",
     },
     {
       name: "IBM Full Stack Developer",
       pdf:"https://drive.google.com/file/d/1l6r5X7HrrqTDokJDLYbymHc4a6jnDT8v/preview",
-      url: "https://skills.yourlearning.ibm.com/activity/URL-74D4424121E3",
+      url: "https://drive.google.com/file/d/1l6r5X7HrrqTDokJDLYbymHc4a6jnDT8v/view?usp=sharing",
     },
     {
       name: "Microsoft Azure Fundamentals",
       pdf: "https://drive.google.com/file/d/16oqHLX0bQxBTJQTqa0cN0sPfR7lCtKze/preview",
-      url: "https://learn.microsoft.com/en-us/training/challenges?id=d3c20752-8234-4377-9974-a55f14fe4800",
+      url: "https://drive.google.com/file/d/16oqHLX0bQxBTJQTqa0cN0sPfR7lCtKze/view?usp=sharing",
     },
     {
       name: "MongoDB Nodejs Developer",
       pdf:"https://drive.google.com/file/d/1fODne5LIHvVBwBUGXMVwZZC5H-LIbsW3/preview",
-      url: "https://learn.mongodb.com/c/NxqXNApURcukGi2XNcyQQw",
+      url: "https://drive.google.com/file/d/1fODne5LIHvVBwBUGXMVwZZC5H-LIbsW3/view?usp=sharing",
     },
     {
       name: "Software Engineering Diploma",
       pdf:"https://drive.google.com/file/d/1icNy4USfJx4FU6nOJ0i1VSu5HeLKmZje/preview",
-      url: "https://www.academyeurope.org/",
+      url: "https://drive.google.com/file/d/1icNy4USfJx4FU6nOJ0i1VSu5HeLKmZje/view?usp=sharing",
     },
   ];
   

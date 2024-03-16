@@ -2,7 +2,7 @@ import React from 'react'
 import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
-import { github } from '../assets'
+import { github, verify } from '../assets'
 import {SectionWrapper} from '../hoc'
 import { projects } from '../constant'
 import { fadeIn, textVariant } from '../utils/motion'
@@ -11,7 +11,7 @@ import { fadeIn, textVariant } from '../utils/motion'
 
 
 const ProjectCard = ( {index, name, description, tags,
-image, source_code_link}) =>{
+image, source_code_link, live}) =>{
   return(
     <motion.div variants={fadeIn("up","spring",
     index * 0.5, 0.75)}>
@@ -47,11 +47,37 @@ image, source_code_link}) =>{
             </div>
 
           </div>
+             
+        <div className='relative inset-0 
+          flex flex-col
+           mt-3 
+           card-img_hover 
+           pd-[10px] 
+           '>
+            <div
+            onClick={() => window.open(live,"_blank")}
+            className='black-gradient w-10 h-10
+            rounded-full flex justify-center
+            items-center cursor-pointer'>
+              <img
+              src={verify}
+              alt='verify'
+              className='w-1/2 h-1/2
+              object-contain'/>
+
+            </div>
+
+          </div>
+
         </div>
 
-        <div className='mt-5'>
+        <div className='mt-12 '>
           <h3 className='text-white font-bold
           text-[24px]'> {name}</h3>
+
+       
+           
+
           <p className='mt-2 text-secondary text-[14px]'>
             {description}
 
@@ -59,13 +85,17 @@ image, source_code_link}) =>{
 
         </div>
 
-        <div className='mt-4 flex flex-wrap gap-2'>
+       
+       
+          <div className='mt-10  flex  flex-wrap gap-2 '>
           {tags.map((tag) => (
             <p key={tag.name}
             className={`text-[14px] ${tag.color}`}>
               #{tag.name}
             </p>
           ))}
+           
+           
 
         </div>
 
@@ -115,6 +145,8 @@ const Works = () => {
           {...project}
           />
         ))}
+
+
       </div>
 
      
