@@ -6,8 +6,8 @@ import {  textVariant } from "../utils/motion";
 
 
 const downloadCV = () => {
-
-  const cvUrl = window.location.href + "https://github.com/omkar7075/Omkar_Waghmare/blob/master/src/assets/cv/resume.pdf"; // Replace with your CV file path
+// window.location.href +
+  const cvUrl = "/src/assets/cv/resume.pdf"; // Replace with your CV file path
   const link = document.createElement("a");
   link.href = cvUrl;
   link.download = "resume.pdf"; // Set the downloaded file name
