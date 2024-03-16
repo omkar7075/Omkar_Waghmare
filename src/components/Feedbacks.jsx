@@ -45,7 +45,7 @@ const downloadCV = () => {
          <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
  
          <div className="text-gray-50">
-          <span className="font-bold text-5xl"> </span>
+          <span className="font-bold text-5xl"> Jr </span>
           <p className="text-xs">Web Developer</p>
          </div>
  
