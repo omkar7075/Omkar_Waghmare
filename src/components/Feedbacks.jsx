@@ -56,7 +56,7 @@ const downloadCV = () => {
          text-sky-800 px-3 py-2 
          flex flex-row items-center
           gap-3"
-          onClick={downloadCV}>Download CV 
+          onClick={'https://drive.google.com/file/d/1Et7knqayOkc77UaxwMZXfoQJBtXjD404/view?usp=sharing'}>Download CV 
           <svg className="w-6 h-6 fill-current"
            height="100" 
            preserveAspectRatio="xMidYMid meet" 
