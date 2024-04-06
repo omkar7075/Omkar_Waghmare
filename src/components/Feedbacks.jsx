@@ -5,15 +5,16 @@ import { SectionWrapper } from "../hoc";
 import {  textVariant } from "../utils/motion";
 
 
-const downloadCV = () => {
+{/*
+  const downloadCV = () => {
 // window.location.href +
-  const cvUrl =  window.location.href + "https://drive.google.com/file/d/1Et7knqayOkc77UaxwMZXfoQJBtXjD404/view?usp=sharing" ; // Replace with your CV file path
+  const cvUrl =  window.location.href +  ; // Replace with your CV file path
   const link = document.createElement("a");
   link.href = cvUrl;
   link.download = "resume.pdf"; // Set the downloaded file name
   link.click();
  }
-
+*/}
  
  
  const Feedbacks = () => {
@@ -56,7 +57,7 @@ const downloadCV = () => {
          text-sky-800 px-3 py-2 
          flex flex-row items-center
           gap-3"
-          onClick={downloadcv}>Download CV 
+          onClick={`"https://drive.google.com/file/d/1Et7knqayOkc77UaxwMZXfoQJBtXjD404/view?usp=sharing`}>Download CV 
           <svg className="w-6 h-6 fill-current"
            height="100" 
            preserveAspectRatio="xMidYMid meet" 
