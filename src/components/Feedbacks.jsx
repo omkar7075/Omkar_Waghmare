@@ -7,12 +7,13 @@ import { textVariant } from "../utils/motion";
 const Feedbacks = () => {
   const downloadCV = () => {
     const cvUrl = "https://drive.google.com/uc?export=download&id=1Et7knqayOkc77UaxwMZXfoQJBtXjD404"; // Update this URL to the correct path of your CV
-    const link = document.createElement("a");
+     window.open(cvUrl, "_blank");
+    {/*const link = document.createElement("a");
     link.href = cvUrl;
     link.download = "resume.pdf"; // Set the downloaded file name
     document.body.appendChild(link);
     link.click();
-    document.body.removeChild(link);
+    document.body.removeChild(link);*/}
   };
 
   return (
