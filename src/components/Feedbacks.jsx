@@ -6,7 +6,7 @@ import { textVariant } from "../utils/motion";
 
 const Feedbacks = () => {
   const downloadCV = () => {
-    const cvUrl = "https://drive.google.com/file/d/1bESVPiyB2CvQhKyL-wDixynRfSphgyCF/view"; // Update this URL to the correct path of your CV
+    const cvUrl = "https://drive.google.com/file/d/1u4jct8QjUWHQiKU0iKh_YKtKPSMJ6Spd/view?usp=sharing"; // Update this URL to the correct path of your CV
      //window.open(cvUrl, "_blank");
     {/*const link = document.createElement("a");
     link.href = cvUrl;
@@ -33,7 +33,7 @@ const Feedbacks = () => {
 
             <button
               className="duration-300 hover:bg-sky-900 border hover:text-gray-50 bg-gray-50 font-semibold text-sky-800 px-3 py-2 flex flex-row items-center gap-3"
-              onClick={downloadCV()}
+              onClick={'https://drive.google.com/file/d/1u4jct8QjUWHQiKU0iKh_YKtKPSMJ6Spd/view?usp=sharing')}
             >
               Download CV
               <svg
